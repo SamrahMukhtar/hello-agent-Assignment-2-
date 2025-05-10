@@ -15,6 +15,7 @@ dependencies = [
 [project.scripts]
 hello-agent = "hello_agent:main"
 my-agent = "hello_agent.agent_hello:my_first_agent"
+Healthcare_agent = "hello_agent.moodmate:run_Healthcare"
 
 [build-system]
 requires = ["hatchling"]
